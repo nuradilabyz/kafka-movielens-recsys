@@ -51,3 +51,4 @@ zk-data/
 
 # Claude Code workspace
 .claude/
+logs/
