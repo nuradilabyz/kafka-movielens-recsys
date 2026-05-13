@@ -8,7 +8,7 @@
 
 | | |
 | --- | --- |
-| 🌐 **Live demo** | **TODO — вставь сюда твой `https://...streamlit.app`** |
+| 🌐 **Live demo** | **https://kafka-movielens.streamlit.app/** |
 | 💻 Source code | https://github.com/nuradilabyz/kafka-movielens-recsys |
 | 📊 Dataset | [MovieLens 32M](https://grouplens.org/datasets/movielens/32m/) — real ratings, 1995–2023 |
 
