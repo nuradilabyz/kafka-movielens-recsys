@@ -1,0 +1,8 @@
+streamlit==1.38.0
+streamlit-autorefresh==1.0.1
+psycopg2-binary==2.9.9
+pandas==2.2.2
+numpy>=1.26
+plotly>=6.0
+pyarrow>=16.0
+qdrant-client>=1.11

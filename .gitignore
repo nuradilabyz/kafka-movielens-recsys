@@ -1,0 +1,53 @@
+# Data
+data/
+*.zip
+*.csv
+*.parquet
+# …but the precomputed taste-map artefacts MUST be in the repo so the
+# Streamlit Cloud deployment can read them.
+!ui/movie_map.parquet
+!ui/movie_vectors_384d.npy
+!ui/movie_ids.npy
+
+# Env / secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Faust
+.faust/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local docker volumes
+kafka-data/
+qdrant-storage/
+zk-data/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Claude Code workspace
+.claude/

@@ -1,0 +1,10 @@
+[project]
+name = "movielens-producer"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "aiokafka>=0.11.0",
+    "pandas>=2.2.0",
+    "kafka-python>=2.0.2",
+    "lz4>=4.3.3",
+]
